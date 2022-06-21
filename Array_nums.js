@@ -13,16 +13,16 @@
 // Output: [1,2,3,4,5]
 // Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
 
-nums = [1, 2, 3, 4]
+// nums = [1, 2, 3, 4]
 
-function runningSum(arr) {
-    let arrOne = [];
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++){
-        sum += arr[i]
-        arrOne.push(sum)
-    }
-    return arrOne
-}
+// function runningSum(arr) {
+//     let arrOne = [];
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         sum += arr[i]
+//         arrOne.push(sum)
+//     }
+//     return arrOne
+// }
 
-console.log(runningSum(nums))
+// console.log(runningSum(nums))
