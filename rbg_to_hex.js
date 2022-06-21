@@ -6,9 +6,9 @@
 // input - 0>3
 // covert to 2 dgit hexidecimal
 
-function rgbToHex(r, g, b) {
-    return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
-  }
+// function rgbToHex(r, g, b) {
+//     return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+//   }
   
-console.log(rgbToHex(0, 51, 255)); // #0033ff
+// console.log(rgbToHex(0, 51, 255)); // #0033ff
 
